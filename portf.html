@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scaler=1.0" />
+        <title>✨ Tamanna Shaikh | Web Developer Portfolio</title>
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap" rel="stylesheet" />
+        <style>
+            * { margin: 0; padding: 0;box-sizing: border-box; }
+            body {
+                font-family: 'Outfit', sans-serif;
+                background: linear-gradient(to right,#0f2027,#203a43,#2c5364);
+                color: #ffffff;
+                line-height: 1.6;
+            }
+            header {
+                padding: 60px 20px;
+                text-align: center;
+                background: linear-gradient(to right, #8e2de2,#4a00e0);
+
+            }
+            header h1 {
+                font-size: 2.8rem;
+                margin-bottom: 10px;
+            }
+            header p {
+                font-size: 1.2rem;
+            }
+            .profile-img {
+                width: 160px;
+                height: 160px;
+                border-radius: 50%;
+                object-fit:cover;
+                border: 4px solid #fff;
+                margin-top: 20px;
+            }
+            nav {
+                background: #111;
+                display: flex;
+                justify-content: center;
+                gap: 40px;
+                padding: 15px 0;
+            }
+            nav a {
+                color: #fdd835;
+                text-decoration: none;
+                font-weight: 600;
+            }
+            nav a:hover {
+                color: #ffffff;
+                text-shadow: 0 0 5px #fdd835;
+            }
+            section {
+                padding: 60px 20px;
+                max-width: 1000px;
+                margin: auto;
+            }
+            .about,.skills,.projects {
+                background: #1e1e2f;
+                border-radius: 20px;
+                padding: 40px;
+                box-shadow: 0 0 15px #8e2de2aa;
+                margin-bottom: 40px;
+            }
+            .about h2,.skills h2,.projects h2 {
+                color: #fdd835;
+                margin-bottom: 20px;
+                font-size: 1.9rem;
+            }
+            .skills ul {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 12px;
+            }
+            .skills li {
+                background: #4a00e0;
+                padding: 10px 16px;
+                border-radius: 10px;
+                list-style: none;
+                color: #fff;
+            }
+            .project-item {
+                background: #2c2c3c;
+                border-left: 6px solid #fdd835;
+                padding: 20px;
+                margin-bottom: 20px;
+                border-radius: 12px;
+            }
+            .project-item h3 {
+                color: #fdd835;
+                margin-bottom: 5px;
+            }
+            footer {
+                text-align: center;
+                padding: 40px;
+                background: #000;
+                color: #888;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Hi,I'm Tamanna Shaikh 👋</h1>
+            <p>Creative Web Developer crafting user-first designs & interactive experiences.</p>
+            <img src="https://via.placeholder.com/150" alt="Tamanna Shaikh" class="profile-img" />
+
+        </header>
+
+        <nav>
+            <a href="#about">About me</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <section id="about" class="about">
+            <h2>About me</h2>
+            <p>I'm Tamanna, a passionate BCA student and web developer with a love for clean code,vibrant interfaces, and seamless user experiences.With a strong foundation in HTML,CSS and Javascript, I enjoy building modern websites and applications that leave an impact.</p>
+            <p>🎓 Currently pursing: BCA (Bachelors of Computer Applications)</p>
+            <p>🎯 Interests: Frontend Development,UI/UX Design, Creative Web Projects</p>
+        </section>
+
+        <section id="skills" class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>Javascript</li>
+                <li>Node.js</li>
+                <li>Figma</li>
+                <li>Responsive Design</li>
+                <li>Python</li>
+                <li>Git & GitHub</li>
+            </ul>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2>Projects</h2>
+            <div class="project-item">
+                <h3>🕒 Elegant Stopwatch</h3>
+                <p>A stylish and functional stopwatch with lap tracking and neon-glow design.</p>
+
+            </div>
+            <div class="project-item">
+                <h3>🎮 Neon Tic-Tac-Toe</h3>
+                <p>Classic game redesigned with glowing effects and interactive UX.</p>
+            </div>
+            <div class="project-item">
+                <h3>📅 Daily Planner App</h3>
+                <p>A daily planner app with a to-do list,reminders,and light/dark mode toggle.</p>
+            </div>
+            <div class="project-item">
+                <h3>🌐 Responsive Landing Page</h3>
+                <p>Custom-designed responsive landing page with animated scroll and call-to-actions.</p>
+            </div>
+            <div class="project-item">
+                <h3>🧮 Calculator 2.0</h3>
+                <p>Advanced calculator built with keyboard support,history log,and sleek UI.</p>
+            </div>
+            <div class="project-item">
+                <h3>💼 Portfolio v2</h3>
+                <p>A redesigned portfolio projecct built using react.js</p>
+            </div>
+        </section>
+
+        <footer id="Contact">
+            <p>📧 Get in touch: <strong>tamannashaikh0605@gmail.com</strong></p>
+            <p>© 2025 Tamanna Shaikh | All Rights Reserved</p>
+        </footer>
+    </body>
+</html>
